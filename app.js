@@ -3,6 +3,7 @@ var csvContainer = document.getElementById('csv-container')
 var clrBtn = document.getElementById('clr-btn');
 clrBtn.onclick = function(){
   // reset container
+  input.value = null;
   csvContainer.innerHTML = ''
   csvContainer.className = ''
 }
